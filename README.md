@@ -1,4 +1,4 @@
-# riverpod_flutter
+# assignment
 
 A new Flutter project.
 
