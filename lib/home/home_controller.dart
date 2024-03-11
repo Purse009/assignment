@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:riverpod_flutter/service/home_service.dart';
+import '../app_import.dart';
 
 class HomePageController with ChangeNotifier {
   final HomeService _homeService = HomeService();

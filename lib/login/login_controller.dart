@@ -1,6 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:riverpod_flutter/model/login_model.dart';
-import 'package:riverpod_flutter/service/login_service.dart';
+import '../app_import.dart';
+import '../const/app_import.dart';
 
 class LoginController with ChangeNotifier {
   bool passwordVisible = true;

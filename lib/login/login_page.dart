@@ -1,10 +1,5 @@
-import 'dart:developer';
-
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:riverpod_flutter/home/home_controller.dart';
-import 'package:riverpod_flutter/home/home_screen.dart';
-import 'package:riverpod_flutter/login/login_controller.dart';
+import '../app_import.dart';
+import '../const/app_import.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -73,9 +68,7 @@ class _LoginPageState extends State<LoginPage> {
         child: TextField(
           controller: context.watch<LoginController>().passwordController,
           obscureText: context.watch<LoginController>().passwordVisible,
-          onChanged: (value) {
-            log('xxxx ${context.read<LoginController>().passwordController.text}');
-          },
+          onChanged: (value) {},
           decoration: InputDecoration(
             suffixIcon: IconButton(
               onPressed: () =>

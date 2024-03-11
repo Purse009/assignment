@@ -1,6 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:riverpod_flutter/model/login_model.dart';
-import 'package:riverpod_flutter/service/api_path.dart';
+import '../const/app_import.dart';
 
 class LoginService {
   Future<LoginModel> login(

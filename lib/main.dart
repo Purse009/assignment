@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:riverpod_flutter/login/login_controller.dart';
-import 'package:riverpod_flutter/login/login_page.dart';
+import 'app_import.dart';
+import 'const/app_import.dart';
 
 void main() {
   runApp(const MyApp());

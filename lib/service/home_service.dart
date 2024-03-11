@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:riverpod_flutter/service/api_path.dart';
 import 'package:http/http.dart' as http;
+import '../const/app_import.dart';
 
 class HomeService {
   Dio dio = Dio();
